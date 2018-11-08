@@ -16,7 +16,7 @@
 
 对于第一个问题，复现步骤如下：
 
-1. 在 ReferenceBean 的 getObject 方法体内
+1. 在 ReferenceBean 的 getObject 方法体内打断点
 2. 以调试模式启动 Consumer Demo
 3. 在断点处进行单步调试，进入到 get 方法中，继续向下调试就会发现问题
 
